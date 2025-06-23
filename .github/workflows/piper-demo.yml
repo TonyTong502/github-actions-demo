@@ -12,5 +12,5 @@ jobs:
         uses: SAP/project-piper-action@main
         with:
           step-name: integrationArtifactDownload
-          custom-defaults-paths: 'piper-defaults.yml'
+          # custom-defaults-paths: 'piper-defaults.yml'
           #flags: '--apiServiceKey {"clientid": "sb-40994cf5-eb57-4ea9-b32c-1bc665055478!b470912|it!b26655","clientsecret": "8d5efa5f-b3d9-432e-8c61-7e859d38ffa1$t9MFTSGt6GhDQ4I0yXYNHhkR-snW3srgF4f2zXwinfc=","url": "https://5f7c28e7trial.it-cpitrial05.cfapps.us10-001.hana.ondemand.com","createdate": "2025-06-23T13:58:34.685Z","tokenurl": "https://5f7c28e7trial.authentication.us10.hana.ondemand.com/oauth/token"} --downloadPath downloaded --integrationFlowId iflow_test_ci --integrationFlowVersion Active --verbose true'
