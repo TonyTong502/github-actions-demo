@@ -1,0 +1,6 @@
+steps:
+  integrationArtifactDownload:
+    apiServiceKey: 'MY_API_SERVICE_KEY'
+    integrationFlowId: 'MY_INTEGRATION_FLOW_NAME'
+    integrationFlowVersion: 'MY_INTEGRATION_FLOW_VERSION'
+    downloadPath: MY_INTEGRATION_FLOW_DOWNLOAD_PATH
