@@ -5,6 +5,9 @@ jobs:
   download-and-sync:
     runs-on: ubuntu-latest
     steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
       - name: download
         uses: SAP/project-piper-action@main
         with:
